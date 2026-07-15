@@ -1,4 +1,4 @@
-package com.example.asakai
+package com.asakai.asakai
 
 import io.flutter.embedding.android.FlutterActivity
 

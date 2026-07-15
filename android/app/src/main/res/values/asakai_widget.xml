@@ -1,0 +1,15 @@
+<resources>
+    <color name="widget_surface">#F9F8F3</color>
+    <color name="widget_on_surface">#1A1C18</color>
+    <color name="widget_on_surface_muted">#5E625B</color>
+    <style name="AsakaiWidgetLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/widget_on_surface</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>
