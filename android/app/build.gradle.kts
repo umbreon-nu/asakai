@@ -6,9 +6,8 @@ plugins {
 }
 
 android {
-    namespace = "com.example.asakai"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    namespace = "com.asakai.asakai"
+    compileSdk = 36
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -21,11 +20,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.asakai"
+        applicationId = "com.asakai.asakai"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
+        minSdk = 36
+        targetSdk = 36
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asakai_widget_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/widget_on_surface"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widget_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textColor="@color/widget_on_surface_muted"
+        android:textSize="15sp" />
+
+    <TextView android:id="@+id/widget_line_1" style="@style/AsakaiWidgetLine" />
+    <TextView android:id="@+id/widget_line_2" style="@style/AsakaiWidgetLine" />
+    <TextView android:id="@+id/widget_line_3" style="@style/AsakaiWidgetLine" />
+    <TextView android:id="@+id/widget_line_4" style="@style/AsakaiWidgetLine" />
+    <TextView android:id="@+id/widget_line_5" style="@style/AsakaiWidgetLine" />
+    <TextView android:id="@+id/widget_line_6" style="@style/AsakaiWidgetLine" />
+</LinearLayout>
